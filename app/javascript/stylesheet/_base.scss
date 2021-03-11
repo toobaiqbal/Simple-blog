@@ -1,0 +1,29 @@
+.authors{
+.paragraph {
+  transition: background-color 0.5s ease;
+  &:hover{
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+
+}
+.image{
+  img{
+    max-width: 80%;
+  }
+  .delete-btn{
+    position: absolute;
+    right: calc(10% + 3800px);
+  }
+}
+.post-card{
+  .header_img{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+}
+}
